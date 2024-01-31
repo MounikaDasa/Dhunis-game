@@ -28,9 +28,6 @@ main {
     height: 100%;
 }
 
-
-
-
  #door1 {
     position: absolute;
     width: 20rem; /* Set the width of the doors */
@@ -58,7 +55,7 @@ main {
     margin-left: 14rem;
     margin-right: 13rem;
     margin-top: 5rem;
-    width: 15rem;
+    width: 8rem;
     animation: arrowAnimation 2s ease-in-out infinite;
     z-index: 3; /* Set z-index to a higher value to bring arrow forward */
 }
@@ -115,7 +112,7 @@ main {
         width: 19rem; /* Set the width of the doors */
         z-index: 1; /* Ensure doors are behind the button */
         margin-left: 24rem;
-        margin-right: 2rem;
+        margin-right: 6rem;
         
     }
     #door2 {
@@ -134,8 +131,8 @@ main {
     }
     #arrow {
         margin-left:15rem;
-        margin-right:7rem;
-        width: 17rem;
+        margin-right:10rem;
+        width: 7rem;
         animation: arrowAnimation 2s ease-in-out infinite;
         z-index: 3; /* Set z-index to a higher value to bring arrow forward */
     }
@@ -236,7 +233,7 @@ main {
     #arrow {
         margin-left: 1.2rem;
         margin-right: 1.2rem;
-        width: 5rem;
+        width: 3rem;
     }
 
     .mh-btn {
